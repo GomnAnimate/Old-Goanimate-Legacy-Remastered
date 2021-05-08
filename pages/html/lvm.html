@@ -1,0 +1,972 @@
+<html><script type="text/javascript" async="" src="//web.archive.org/web/20170701063332/http://munchkin.marketo.net/151/munchkin.js"></script><script type="text/javascript" async="" src="https://web.archive.org/web/20170723024210/https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://web.archive.org/web/20170701063749js_/https://web-analytics.engagio.com/js/ei.js"></script><script type="text/javascript" defer="" async="" src="https://web.archive.org/web/20170701063749js_/https://cdn.evergage.com/beacon/goanimate/engage/scripts/evergage.min.js"></script><script src="https://web.archive.org/web/20170701063749js_/https://connect.facebook.net/signals/config/784667875001149?v=2.7.17" async=""></script><script async="" src="https://web.archive.org/web/20170701063749js_///connect.facebook.net/en_US/fbevents.js"></script><script src="https://web.archive.org/web/20170701063749/https://dnn506yrbagrg.cloudfront.net/pages/scripts/0017/4526.js?416358" async="" type="text/javascript"></script><script id="hs-analytics" src="//web.archive.org/web/20170701063749/https://js.hs-analytics.net/analytics/1498891200000/427840.js"></script><script id="facebook-jssdk" src="//web.archive.org/web/20170701063749/https://connect.facebook.net/en_US/sdk.js"></script><script type="text/javascript" async="" src="https://web.archive.org/web/20170701063749/https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.12.1-min.gz.js"></script><script async="" src="//web.archive.org/web/20170701063749/https://www.googletagmanager.com/gtm.js?id=GTM-TXV7MD"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
+          id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head><script async="" src="https://web.archive.org/web/20170701063749js_/https://goanimate.evergage.com/twreceiver?_callback=jQuery180011407750342935528_1498891121315&amp;_ak=goanimate&amp;_ds=engage&amp;_r=980452&amp;.anonId=87ec6b71f902d361&amp;_anon=true&amp;action=Home&amp;url=https%3A%2F%2Fgoanimate.com%2F&amp;title=Create+Animated+Videos+for+your+Business+%7C+GoAnimate.com&amp;.dt=21651&amp;.pt=37&amp;.bt=12666&amp;.pv=&amp;.bv=11&amp;_=1498891121368"></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app13.us.archive.org';v.server_ms=1048;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=SOX25l-I" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://goanimate.com/","20170701063749","https://web.archive.org/","web","/_static/",
+	      "1498891069");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=bsmaklHF">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="dns-prefetch" href="//web.archive.org/web/20170701063749/https://d3v4eglovri8yt.cloudfront.net/">
+
+<title>Create Animated Videos for your Business | GoAnimate.com</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Make animated videos online for your business with GoAnimate. Create animated marketing videos, sales videos, explainer videos, training videos and elearning videos. Make video presentations and produce video advertising. Use our powerful animation software to increase the ROI on your video.">
+<meta property="og:site_name" content="GoAnimate">
+<meta property="fb:app_id" content="177116303202">
+
+<meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
+
+<link rel="canonical" href="https://web.archive.org/web/20170701063749/https://goanimate.com/">
+<link rel="alternate" href="https://web.archive.org/web/20170701063749/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
+<link rel="alternate" href="https://web.archive.org/web/20170701063749/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
+<link rel="alternate" href="https://web.archive.org/web/20170701063749/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
+
+<link href="//web.archive.org/web/20170701063749cs_/https://fonts.googleapis.com/css?family=Lato:400,700,400italic" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20170701063749cs_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+
+<link href="https://web.archive.org/web/20170701063749cs_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/css/business_video/home.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20170701063749cs_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/css/intl-tel-input/intlTelInput.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20170701063749cs_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/css/popup.css.gz.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<style text="text/css">
+.top-nav.collapse {height: auto;overflow: visible;}
+</style>
+<![endif]-->
+
+<script>
+var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
+var user_role = null;
+</script>
+
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/common_combined.js.gz.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/po/goserver_js-en_US.json.gz.json"></script>
+<script type="text/javascript">
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/jquery/jquery.waypoints2.min.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/evergage/evergageFlickerDefender.min.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/email.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/intl-tel-input/utils.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/intl-tel-input/intlTelInput.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/mailcheck.min.js.gz.js"></script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/mailcheck_extend.js.gz.js"></script>
+
+<script src="//web.archive.org/web/20170701063749js_/https://cdn.optimizely.com/js/4554059.js"></script>
+
+<script type="text/javascript" src="https://web.archive.org/web/20170701063749js_/https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<!-- Google Tag Manager -->
+<script>
+    dataLayer = [];
+    </script>
+<noscript><iframe src="//web.archive.org/web/20170701063749if_/https://www.googletagmanager.com/ns.html?id=GTM-TXV7MD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//web.archive.org/web/20170701063749/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXV7MD');</script>
+<!-- Google Tag Manager -->
+
+
+
+<script type="text/javascript">
+
+</script>
+
+<link href="https://plus.google.com/+goanimate" rel="publisher">
+
+<!-- Start of goanimate Zendesk Widget script -->
+<iframe src="javascript:false" title="" style="display: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe><script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//web.archive.org/web/20170701063749/https://assets.zendesk.com/embeddable_framework/main.js","goanimate.zendesk.com");/*]]>*/</script>
+<!-- End of goanimate Zendesk Widget script -->
+
+<script type="text/javascript">
+(function(e,t){var n=e.amplitude||{_q:[]};var r=t.createElement("script");r.type="text/javascript";
+r.async=true;r.src="https://web.archive.org/web/20170701063749/https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.12.1-min.gz.js";
+r.onload=function(){e.amplitude.runQueuedFunctions()};var s=t.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(r,s);function i(e,t){e.prototype[t]=function(){this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+return this}}var o=function(){this._q=[];return this};var a=["add","append","clearAll","prepend","set","setOnce","unset"];
+for(var u=0;u<a.length;u++){i(o,a[u])}n.Identify=o;var c=function(){this._q=[];return this;
+};var p=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"];
+for(var l=0;l<p.length;l++){i(c,p[l])}n.Revenue=c;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId"];
+function v(e){function t(t){e[t]=function(){e._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+}}for(var n=0;n<d.length;n++){t(d[n])}}v(n);e.amplitude=n})(window,document);
+
+var amplitudeConfig = {
+    apiKey: '4c9fffdee3fb26c43dd66c70698c5a8f',
+    userId: '',
+    userEmail: ''
+};
+
+amplitude.init(
+    amplitudeConfig.apiKey,
+    null,
+    {
+        includeUtm: true,
+        includeReferrer: true
+    },
+    amplitudeCallBack
+);
+
+function amplitudeCallBack() {
+    var cookie_string = "amplitudeSessionId" + "=" + encodeURIComponent(amplitude.getSessionId());
+    document.cookie = cookie_string;
+}
+
+if (amplitudeConfig.userId !== '') {
+    amplitude.setUserId(amplitudeConfig.userId);
+    amplitude.setUserProperties({
+        email: amplitudeConfig.userEmail
+    });
+}
+
+/**
+ * UTM utility.
+ */
+var utmUtil = (function() {
+
+    'use strict';
+
+    var getUTMParameters;
+
+    /**
+     * Gets UTM parameters.
+     *
+     * @return {Object} A JSON object containing the properties source
+     *                    (utm_source), medium (utm_medium), term (utm_term),
+     *                    content (utm_content) and name (utm_campaign).
+     */
+    getUTMParameters = function() {
+        var queryString = window.location.search.substring(1),
+            parameters,
+            parameterIndex,
+            parametersCount,
+            parameterPair,
+            parameterName,
+            parameterValue,
+            parameterObject = {
+                source: null,
+                medium: null,
+                term: null,
+                content: null,
+                name: null
+            };
+        // No query string at all.
+        if (queryString === '') {
+            return parameterObject;
+        }
+        parameters = queryString.split('&');
+        parametersCount = parameters.length;
+        for (parameterIndex = 0; parameterIndex < parametersCount; parameterIndex++) {
+            parameterPair = parameters[parameterIndex].split('=');
+            if (parameterPair.length !== 2) {
+                continue;
+            }
+            parameterName = parameterPair[0];
+            parameterValue = parameterPair[1];
+            // Filter out non-UTM parameters.
+            switch (parameterName) {
+                case 'utm_source':
+                    parameterObject.source = parameterValue;
+                    break;
+                case 'utm_medium':
+                    parameterObject.medium = parameterValue;
+                    break;
+                case 'utm_term':
+                    parameterObject.term = parameterValue;
+                    break;
+                case 'utm_content':
+                    parameterObject.content = parameterValue;
+                    break;
+                case 'utm_campaign':
+                    parameterObject.name = parameterValue;
+                    break;
+            }
+        }
+        return parameterObject;
+    };
+
+    return {
+        getUTMParameters: getUTMParameters
+    };
+}());
+</script>
+<script src="https://web.archive.org/web/20170701063749js_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/js/amplitude/go_amp.js.gz.js"></script>
+<script>
+// Page view.
+var utmParameters = utmUtil.getUTMParameters(),
+loginStatus = AMPLITUDE_EVENT_PROPERTIES.NO;amplitudeTrackEvent(
+    AMPLITUDE_EVENT.PAGE_VIEW,
+    {
+        page_url: window.location.toString(),
+        login_status: loginStatus,
+        utm_source: utmParameters.source,
+        utm_medium: utmParameters.medium,
+        utm_term: utmParameters.term,
+        utm_content: utmParameters.content,
+        utm_name: utmParameters.name,
+        referral: document.referrer
+    }
+);
+</script>
+
+
+<!-- Google Knowledge Graph -->
+<script type="application/ld+json">
+{
+    "@context": "https://web.archive.org/web/20170701063749/http://schema.org",
+    "@type": "Organization",
+    "name": "GoAnimate",
+    "url": "https://web.archive.org/web/20170701063749/http://goanimate.com",
+    "logo": "https://web.archive.org/web/20170701063749/http://gawpstorage.s3.amazonaws.com/img/google_knowledge_graph_logo.jpg",
+    "sameAs": [
+        "https://web.archive.org/web/20170701063749/http://www.facebook.com/GoAnimateInc",
+        "https://web.archive.org/web/20170701063749/http://twitter.com/GoAnimate",
+        "https://web.archive.org/web/20170701063749/http://www.linkedin.com/company/goanimate",
+        "https://web.archive.org/web/20170701063749/http://plus.google.com/+goanimate",
+        "https://web.archive.org/web/20170701063749/http://www.youtube.com/user/GoAnimate"
+    ]
+}
+</script>
+
+<div style="display: none;"></div><script type="text/javascript" async="" src="https://web.archive.org/web/20170701063749js_///munchkin.marketo.net/munchkin.js"></script><style type="text/css" class="evergageCampaignStyles">/*
+ * Copyright (C) 2010-2014 Evergage, Inc.
+ * All rights reserved.
+ */
+
+
+/* Fluid class for determining actual width in IE */
+#qtip-rcontainer .evergage-tooltip{
+    display: block !important;
+    visibility: hidden !important;
+    position: static !important;
+    float: left !important;
+}
+
+/* Core qTip styles */
+.evergage-tooltip, .evergage-qtip{
+    position: fixed;
+    left: -28000px;
+    top: -28000px;
+    display: none;
+}
+
+.evergage-tooltip.evergage-unsafe-tooltip {
+    display: block;
+    left: inherit;
+    top: inherit;
+}
+
+.evergage-tooltip.evergageMessageInVisualEditorTestMode {
+    position: absolute;
+    pointer-events: auto;
+}
+
+.evergage-tooltip > .evergage-tooltip-content-unsafe-tooltip {
+    margin: 0px !important;
+    border: none !important;
+    outline: 0px !important;
+    padding: 0px !important;
+}
+
+.evergage-tooltip.evergage-jgrowl.evergage-tooltip-bar {
+    max-width: 100% !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+}
+
+.evergage-tooltip-invisible {
+    display: none !important;
+    visibility: hidden !important;
+    width: 1px !important;
+    height: 1px !important;
+}
+
+.evergage-tooltip-page {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: inherit !important;
+    display: inline-block;
+}
+
+.evergage-tooltip-page-replace {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.evergage-tooltip .evergage-tooltip-content li.evergage-tasklistitem-notdone, .evergage-tooltip .evergage-tooltip-content li.evergage-tasklistitem-done {
+    text-transform: inherit;
+    display: list-item;
+    width: inherit;
+    line-height: inherit;
+    text-align: left;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+.evergage-tooltip li.evergage-task-done, .evergage-tooltip li.evergage-task-notdone {
+    margin-bottom: 10px;
+}
+
+.evergage-tooltip .evergage-tooltip-content li.evergage-tasklistitem-done, .evergage-tooltip li.evergage-task-done {
+    text-decoration: line-through;
+}
+
+.evergage-tooltip.evergage-nonBlocking.evergage-tooltip-hover {
+    opacity: 0.2 !important;
+}
+
+.evergage-tooltip .evergage-tooltip-content{
+    position: relative;
+    padding: 5px 9px;
+    overflow: hidden;
+
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.evergage-tooltip .evergage-tooltip-titlebar{
+    position: relative;
+    min-height: 14px;
+    padding: 5px 35px 5px 10px;
+    overflow: hidden;
+
+    border-width: 0 0 1px;
+    font-weight: bold;
+}
+
+.evergage-tooltip-titlebar + .evergage-tooltip-content{ border-top-width: 0 !important; }
+
+/* Default close button class */
+.evergage-tooltip-titlebar .evergage-tooltip-close {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    margin-top: -9px;
+    font-weight: bold;
+
+    cursor: pointer;
+    outline: medium none;
+
+    border: none;
+    background: transparent;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+}
+
+.emptyTitle > .evergage-tooltip-titlebar  {
+    height: 0;
+    float: right;
+    z-index: 2147483647;
+}
+
+* html .evergage-tooltip .evergage-tooltip-titlebar .evergage-tooltip-close { top: 16px; } /* IE fix */
+
+.evergage-tooltip-titlebar .evergage-ui-icon-close,
+.evergage-tooltip-icon .evergage-ui-icon-close {
+    display: block;
+    text-indent: -1000em;
+    direction: ltr;
+}
+
+.evergage-tooltip-icon, .evergage-tooltip-icon .evergage-ui-icon-close {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.evergage-tooltip-icon .evergage-ui-icon-close{
+    width: 18px;
+    height: 14px;
+
+    text-align: center;
+    text-indent: 0;
+    font: normal bold 14px/14px sans-serif;
+
+    color: inherit;
+    background: transparent none no-repeat -100em -100em;
+}
+
+a.evergage-tooltip-close:hover {
+    text-decoration: none;
+}
+
+.evergage-ui-icon-close:hover {
+    font-size: 22px;
+}
+
+
+/* Applied to 'focused' tooltips e.g. most recently displayed/interacted with */
+.evergage-tooltip-focus {}
+
+/* Applied on hover of tooltips i.e. added/removed on mouseenter/mouseleave respectively */
+.evergage-tooltip-hover {}
+
+/* Default tooltip style */
+.evergage-tooltip-default {
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #F1D031;
+    background-color: #FFFFA3;
+    color: #555;*/
+}
+
+.evergage-tooltip-default .evergage-tooltip-titlebar {
+    background-color: transparent;
+}
+
+.evergage-tooltip-default .evergage-tooltip-icon {
+    /*border-color: #CCC;*/
+    /*background: #F1F1F1;*/
+    /*color: #777;*/
+}
+
+/* Add shadows to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+.evergage-tooltip-shadow{
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Add rounded corners to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+.evergage-tooltip-rounded,
+.evergage-tooltip-tipsy,
+.evergage-tooltip-bootstrap{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* IE9 fix - removes all filters */
+.evergage-tooltip:not(.ie9haxors) div.evergage-tooltip-content,
+.evergage-tooltip:not(.ie9haxors) div.evergage-tooltip-titlebar{
+    filter: none;
+    -ms-filter: none;
+}
+
+
+/* Tips plugin */
+.evergage-tooltip .evergage-tooltip-tip{
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.evergage-tooltip .evergage-tooltip-tip,
+.evergage-tooltip .evergage-tooltip-tip .evergage-qtip-vml{
+    position: absolute;
+
+    line-height: 0.1px !important;
+    font-size: 0.1px !important;
+    color: #123456;
+
+    background: transparent;
+    border: 0 dashed transparent;
+}
+
+.evergage-tooltip .evergage-tooltip-tip canvas{ top: 0; left: 0; }
+
+.evergage-tooltip .evergage-tooltip-tip .evergage-qtip-vml{
+    behavior: url(#default#VML);
+    display: inline-block;
+    visibility: visible;
+}
+
+/* Modal plugin */
+#evergage-qtip-overlay{
+    position: fixed;
+    left: -10000em;
+    top: -10000em;
+}
+
+/* Applied to modals with show.modal.blur set to true */
+#evergage-qtip-overlay.blurs{ cursor: pointer; }
+
+/* Change opacity of overlay here */
+#evergage-qtip-overlay div{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+
+    background-color: black;
+
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    -ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)\";
+}
+
+.evergage.poweredByEvergage > a {
+    opacity: 0.2;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+}
+
+.evergage.poweredByEvergage > a:hover {
+    opacity: 1;
+}
+
+
+/*# sourceURL=evergageStyles.css*/</style><script type="text/javascript" src="//web.archive.org/web/20170721100722/https://web-analytics.engagio.com/js/ei_track_all_packed.js"></script><script src="//web.archive.org/web/20170721100722/https://web-analytics.engagio.com/api/stat?page_url=https%3A%2F%2Fgoanimate.com%2F&amp;page_title=Create%20Animated%20Videos%20for%20your%20Business%20%7C%20GoAnimate.com&amp;track_type=page&amp;action=ei_view&amp;category=ei_page_tracking&amp;client_id=&amp;account_id=175c7e69f5518230c00f72057c214a6926861f0d&amp;method=post&amp;callback=EI.api._callbacks.s1153978"></script></head>
+<script type="text/javascript">
+if (self !== top) {
+            jQuery('body').hide();
+    }
+</script>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://web.archive.org/web/20170701063749if_/https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.js?version=42#channel=f3fa703b8ec8ba&amp;origin=https%3A%2F%2Fgoanimate.com" style="border: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div></div></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId : '177116303202',
+            cookie : true,
+            status : true,
+            xfbml : true,
+            version : 'v2.8'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//web.archive.org/web/20170701063749/https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<script type="text/javascript">
+        jQuery.extend(CCStandaloneBannerAdUI, {"actionshopSWF":"https:\/\/web.archive.org\/web\/20170701063749\/https:\/\/d3v4eglovri8yt.cloudfront.net\/animation\/e3efc2d51b576ee3\/actionshop.swf","apiserver":"https:\/\/web.archive.org\/web\/20170701063749\/http:\/\/goanimate.com\/","clientThemePath":"https:\/\/web.archive.org\/web\/20170701063749\/https:\/\/d3v4eglovri8yt.cloudfront.net\/static\/0a1d2e66927b3065\/<client_theme>","userId":""});
+</script>
+
+<div class="page-container">
+
+
+<div class="site-header">
+    <div class="navbar site-nav" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="https://web.archive.org/web/20170701063749/https://goanimate.com/" title="GoAnimate">
+                    <img alt="Make a Video Online with GoAnimate.com" src="https://web.archive.org/web/20170701063749im_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/img/business_video/home/logo.png">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                
+                <ul class="nav navbar-nav navbar-right">
+              
+			</li>
+                    <li>
+                        <a class="hidden-sm hidden-md hidden-lg" href="https://josephcrosmanplays532.github.io/Old-Goanimate-Legacy-Remastered/pages/html/videomaker.html">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="https://josephcrosmanplays532.github.io/Old-Goanimate-Legacy-Remastered/pages/html/videomaker.html">Make a Video</a></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="noti_tooltips_container"></div>
+        </div>
+    </div>
+</div>
+    <script>var notiTooltips = new NotificationTooltips($('#idxNotibtn'));</script>
+
+
+<script>
+    jQuery('.logout-link').click(function(){
+        amplitudeTrackEvent(AMPLITUDE_EVENT.LOGOUT, null);
+    });
+    </script>
+
+<!-- END OF HEADER -->
+<html><head><script>document.title='Video Editor',flashvars={"apiserver":"/","storePath":"https://goanimate-wrapper.github.io/GoAnimate-Assets/store/3a981f5cb2739137/<store>","isEmbed":1,"ctc":"go","ut":50,"bs":"default","appCode":"go","page":"","siteId":"go","lid":13,"isLogin":"Y","retut":1,"clientThemePath":"https://goanimate-wrapper.github.io/GoAnimate-Assets/static/ad44370a650793d9/<client_theme>","themeId":"business","tlang":"en_US","presaveId":"m-0","goteam_draft_only":1,"isWide":1,"collab":0,"nextUrl":"/html/list.html"}</script><title>Video Editor</title></head><body style="margin:0px"><object id="obj" data="https://goanimate-wrapper.github.io/GoAnimate-Assets/animation/414827163ad4eb60/go_full.swf" type="application/x-shockwave-flash" width="100%" height="100%" class="flpl_initiated" title="Adobe Flash Player"><param name="flashvars" value="apiserver=%2F&amp;storePath=https%3A%2F%2Fgoanimate-wrapper.github.io%2FGoAnimate-Assets%2Fstore%2F3a981f5cb2739137%2F%3Cstore%3E&amp;isEmbed=1&amp;ctc=go&amp;ut=50&amp;bs=default&amp;appCode=go&amp;page=&amp;siteId=go&amp;lid=13&amp;isLogin=Y&amp;retut=1&amp;clientThemePath=https%3A%2F%2Fgoanimate-wrapper.github.io%2FGoAnimate-Assets%2Fstatic%2Fad44370a650793d9%2F%3Cclient_theme%3E&amp;themeId=business&amp;tlang=en_US&amp;presaveId=m-0&amp;goteam_draft_only=1&amp;isWide=1&amp;collab=0&amp;nextUrl=%2Fhtml%2Flist.html"> <param name="allowScriptAccess" value="always"></object><iframe style="display:none" name="dummy"></iframe><form style="display:none" id="uploadbanner" enctype="multipart/form-data" method="post" action="/upload_asset" target="dummy"><input type="text" name="params"><input id="fileupload" name="import" type="file" onchange="importComplete(this)" accept=".mp3,.wav,.png,.jpg"><input type="submit" value="submit" id="submit"></form><script>interactiveTutorial={neverDisplay:function(){return true}};function studioLoaded(arg){console.log(arg)}function initPreviewPlayer(xml){confirm('Before proceeding, please make sure all your changes have been saved.')&&window.open('player?movieId='+flashvars.presaveId,'MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};function exitStudio(){window.location='/html/list.html'}const fu=document.getElementById('fileupload'),sub=document.getElementById('submit');function showImporter(){fu.click()};function importComplete(obj){const file=obj.files[0];if(file!=undefined){const ext=file.name.substring(file.name.lastIndexOf('.')+1);var params='';if(ext=='mp3'||ext=='wav'){var c;while(c!='vo'&&c!='se'&&c!='mu'){c=prompt('Would you like to upload this as a voiceover ("vo"), sound effect ("se"), or as music ("mu")?').toLowerCase()}params+=c}else if(ext=='jpg'||ext=='png'){params+=confirm('Would you like to upload this asset as a background? "no" will upload as a prop.')?'bg':'prop'}obj.parentElement.firstChild.value=params+'.'+ext;sub.click();return true}}</script></body></html>
+	 <!-- FOOTER -->
+
+<div class="site-footer">
+    <div class="container">
+        <div class="site-footer-nav row">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>About GoAnimate</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/about">Who we are</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://resources.goanimate.com/careers/">Careers</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/contactus">Contact Us</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://blog.goanimate.com/">Blog</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://press.goanimate.com/">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>GoAnimate Solutions</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/business/videoplans?hook=footer_button.site">Plans and Pricing</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/business/videoplans/federal?hook=footer_button.site">Plans for Federal Agencies</a></li>
+                        <li><a href="https://goanimate4schools.herokuapp.com/" target="_blank">GoAnimate for Schools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>Usage Guidelines</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/termsofuse">Terms of Service</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://goanimate.com/privacy">Privacy Policy</a></li>
+                        <li><a href="//web.archive.org/web/20170701063749/https://support.goanimate.com/hc/en-us/articles/202408574" target="_blank">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4>Getting Help</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://web.archive.org/web/20170701063749/https://resources.goanimate.com/">Resources</a></li>
+                        <li><a href="https://web.archive.org/web/20170701063749/https://support.goanimate.com/">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials">
+                        <li><a class="glyph-social glyph-facebook" href="https://www.facebook.com/GoAnimateInc"><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="glyph-social glyph-twitter" href="https://twitter.com/GoAnimate"><span class="sr-only">Twitter</span></a></li>
+                        <li><a class="glyph-social glyph-linked-in" href="https://www.linkedin.com/company/goanimate"><span class="sr-only">LinkedIn</span></a></li>
+                        <li><a class="glyph-social glyph-google-plus" href="https://plus.google.com/+goanimate"><span class="sr-only">Google+</span></a></li>
+                        <li><a class="glyph-social glyph-youtube" href="https://www.youtube.com/user/GoAnimate"><span class="sr-only">YouTube</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="site-footer-copyright">
+                    <img src="https://web.archive.org/web/20170701063749im_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/img/footer/logo_amazon.png" alt="AWS Partner Network">
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="ga-copy">GoAnimate © 2016</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            You can't use GoAnimate because Flash might be disabled. <a href="https://get.adobe.com/flashplayer/">Enable Flash</a>.
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- END OF PAGE STRUCTURE -->
+
+
+<script>
+var IE = {
+  Version: function() {
+    var version = 999; // we assume a sane browser
+    if (navigator.appVersion.indexOf("MSIE") != -1)
+      // bah, IE again, lets downgrade version number
+      version = parseFloat(navigator.appVersion.split("MSIE")[1]);
+    return version;
+  }
+}
+
+var UserData = function() {
+  this.userData = null;
+  this.name = location.hostname;
+
+  if (IE.version > 6 && !this.userData) {
+    try {
+      this.userData = document.createElement('INPUT');
+      this.userData.type = "hidden";
+      this.userData.style.display = "none";
+      this.userData.addBehavior ("#default#userData");
+      document.body.appendChild(this.userData);
+      var expires = new Date();
+      expires.setDate(expires.getDate()+365);
+      this.userData.expires = expires.toUTCString();
+    } catch(e) {
+    }
+  }
+
+    this.setItem = function(key, value) {
+
+            this.userData.load(this.name);
+            this.userData.setAttribute(key, value);
+            this.userData.save(this.name);
+    }
+    this.getItem = function(key) {
+            this.userData.load(this.name);
+            return this.userData.getAttribute(key);
+    }
+    this.remove = function(key) {
+            this.userData.load(this.name);
+            this.userData.removeAttribute(key);
+            this.userData.save(this.name);
+    }
+
+}
+
+function locStorage(action, key, value){
+    var result;
+    if (typeof(localStorage) == 'undefined' ) {
+            // localStorge not supported
+    } else {
+        try {
+            switch(action){
+                case 'setItem':
+                    localStorage.setItem(key, value);
+                break;
+                case 'getItem':
+                    result = localStorage.getItem(key);
+                break;
+                case 'removeItem':
+                    localStorage.removeItem(key);
+                break;
+            }
+        return result;
+        } catch (e) {
+            if (e == QUOTA_EXCEEDED_ERR) {
+                //data wasn't successfully saved due to quota exceed so throw an error
+            }
+        }
+    }
+}
+function bannedUser(value){
+    if (value == "true"){
+        document.body.innerHTML="";
+    }
+}
+</script>
+<div style="height:0;overflow:hidden;"><object width="1" height="1">   <param name="vap" value="https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/swf/VAP.swf">   <param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true">   <param name="FlashVars" value="detect=true">   <param name="allowscriptaccess" value="always">   <embed src="https://web.archive.org/web/20170701063749oe_/https://d3v4eglovri8yt.cloudfront.net/static/0a1d2e66927b3065/go/swf/VAP.swf" flashvars="detect=true" type="application/x-shockwave-flash" width="1" height="1" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true" class="flpl_initiated"></object></div>    <script>
+    //check userdata (IE)
+    if (IE.version > 6) {
+        var ud = new UserData();
+        var ud_expiry = ud.getItem("vap");
+        if (ud_expiry > 1498891070){
+            document.body.innerHTML='';
+        }
+    }
+    //check localStorage
+    var ls_expiry = locStorage("getItem", "vap");
+    if (ls_expiry > 1498891070){
+        document.body.innerHTML='';
+    }
+    </script>
+
+<div id="container"></div>
+
+<div id="offer_container">
+</div>
+<script type="text/javascript">
+    </script>
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//web.archive.org/web/20170701063749/https://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/427840.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<script type="text/javascript">
+    function logSendShareToGA() {
+        dataLayer.push({
+            'event': 'ga-pageview-t1',
+            'path': '/pageTracker/goals/reg/contactform'
+        });
+    }
+
+</script>
+
+
+
+<!--
+     FILE ARCHIVED ON 06:37:49 Jul 01, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:24:52 Jan 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 202.782 (3)
+  RedisCDXSource: 2.641
+  PetaboxLoader3.resolve: 129.084
+  xauthn.chkprivs: 83.406
+  PetaboxLoader3.datanode: 153.37 (4)
+  exclusion.robots.policy: 195.461
+  esindex: 0.02
+  exclusion.robots: 195.479
+  xauthn.identify: 111.675
+  load_resource: 173.98
+  CDXLines.iter: 33.198 (3)
+  captures_list: 825.347
+-->
+<script type="text/javascript" id="">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","784667875001149");fbq("track","PageView");
+
+}</script>
+<noscript><img height="1" width="1" style="display:none" src="https://web.archive.org/web/20170701063749im_/https://www.facebook.com/tr?id=784667875001149&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+$(function(){function c(a,c,b){document.cookie=a+"\x3d"+escape(c)+"; path\x3d/; max-age\x3d"+b+";"}function f(a){return(a=document.cookie.match("(^|;) ?"+a+"\x3d([^;]*)(;|$)"))?unescape(a[2]):null}var d=5,g=900;$(window).on({unload:function(){c("lasturl",window.location.href,d)},onbeforeunload:function(){c("lasturl",window.location.href,d)},load:function(){var a=document.referrer,d=f("gasessid");""===a&&(a=f("lasturl"));if((""===a||null===d)&&"undefined"!==typeof ga){var a=new Date,b,e;try{var h=
+ga.getAll(),a=new Date;e=h[0].get("clientId");b=e+"."+a.getTime();ga("set","dimension1",e);ga("set","dimension2",b);dataLayer.push({GAClientId:e,GASessionId:b});c("gasessid",b,g)}catch(k){}}}})});
+
+}</script><script type="text/javascript" id="" src="https://web.archive.org/web/20170701063749js_/https://fast.wistia.com/static/integrations-hubspot-v1.js"></script><script type="text/javascript" id="">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+var _aaq=window._aaq||(window._aaq=[]);(function(){var a=document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.defer=!0;b.async=!0;b.src=document.location.protocol+"//cdn.evergage.com/beacon/goanimate/engage/scripts/evergage.min.js";a.parentNode.insertBefore(b,a)})();
+
+}</script><script type="text/javascript" id="">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+(function(){function b(){!1===c&&(c=!0,Munchkin.init("578-BPW-716"))}var c=!1,a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//munchkin.marketo.net/munchkin.js";a.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||b()};a.onload=b;document.getElementsByTagName("head")[0].appendChild(a)})();
+
+}</script><script type="text/javascript" id="" charset="utf-8">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+var _eiq=_eiq||[],_engagio_settings={accountId:"175c7e69f5518230c00f72057c214a6926861f0d"};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://":"http://")+"web-analytics.engagio.com/js/ei.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+
+}</script><div><iframe data-reactroot="" id="helpCenterForm" class="zEWidget-helpCenterForm" style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; bottom: 0px; width: 357px; margin-left: 15px; margin-right: 15px; margin-top: 0px; height: 165px; transition-property: none; transition-timing-function: unset; top: -9999px;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div><div><iframe data-reactroot="" id="ticketSubmissionForm" class="zEWidget-ticketSubmissionForm" style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; bottom: 0px; width: 357px; margin-left: 15px; margin-right: 15px; margin-top: 0px; height: 476px; transition-property: none; transition-timing-function: unset; top: -9999px;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div><div><iframe data-reactroot="" id="launcher" class="zEWidget-launcher zEWidget-launcher--active" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; opacity: 1; right: 0px; bottom: 0px; width: 111px; height: 48px; margin: 10px 20px;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div><div><iframe data-reactroot="" id="nps" class="zEWidget-nps" style="border: none; background: transparent; z-index: 2147483647; transform: translateZ(0px); position: fixed; opacity: 0; inset: -9999px 0px 0px 50%; margin-left: -310px; margin-bottom: 15px; width: 640px; margin-top: 0px; height: 177px; transition-property: none; transition-timing-function: unset;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div><div><iframe data-reactroot="" id="ipm" class="zEWidget-ipm" style="border: none; background: transparent; z-index: 2147483647; transform: translateZ(0px); position: fixed; opacity: 0; right: 0px; top: -245px; margin-right: 15px; margin-top: 0px; height: 195px; width: 395px; transition-property: none; transition-timing-function: unset;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div><style id="wistia_46_style" type="text/css" class="wistia_injected_style">@font-face {
+font-family: 'WistiaPlayerOverpass';
+src: url(data:application/x-font-ttf;charset=utf-8;base64,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);
+}</style></body></html>
+
